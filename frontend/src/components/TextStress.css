@@ -1,0 +1,88 @@
+.textstress-page {
+  width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #475569 100%);
+  color: #f8fafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.textstress-card {
+  width: 100%;
+  max-width: 850px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 22px;
+  padding: 40px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+  animation: fadeInUp 0.5s ease-out;
+}
+
+.textstress-card h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.2;
+  background: linear-gradient(135deg, #60a5fa, #10b981);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.textstress-input {
+  width: 100%;
+  height: 180px;
+  padding: 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.18);
+  background: rgba(30,41,59,0.65);
+  color: #e2e8f0;
+  font-size: 1.15rem;
+  resize: vertical;
+  outline: none;
+}
+.textstress-input::placeholder{
+  color:#708090;
+}
+
+.textstress-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  transition: 0.3s ease;
+}
+
+.textstress-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(59,130,246,0.3);
+}
+
+.textstress-result {
+  margin-top: 32px;
+  background: rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.textstress-result h3{
+  font-size:1.4rem;
+  font-weight:700;
+  margin-bottom:12px;
+}
+
+/* animation */
+@keyframes fadeInUp {
+  from { opacity:0; transform:translateY(30px); }
+  to { opacity:1; transform:translateY(0); }
+}

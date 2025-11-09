@@ -134,3 +134,19 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+.safetensors
+
+# Python venv
+venv/
+.env
+__pycache__/
+*.pyc
+
+# AI Model files
+*.bin
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+text_stress_model/
