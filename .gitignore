@@ -149,4 +149,33 @@ __pycache__/
 *.h5
 *.ckpt
 *.onnx
-text_stress_model/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# PyCharm / VSCode project configs
+.idea/
+.vscode/
+
+# Model files (if hosted on HuggingFace)
+*.bin
+*.safetensors
+*.h5
+
+# Logs
+*.log
+
+# Environment variables
+.env
